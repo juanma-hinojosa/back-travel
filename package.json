@@ -1,0 +1,25 @@
+{
+  "name": "back-travel",
+  "version": "1.0.0",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "dev": "nodemon app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cloudinary": "^2.9.0",
+    "dotenv": "^16.5.0",
+    "express": "^5.2.1",
+    "mongoose": "^8.14.1",
+    "multer": "^1.4.5-lts.2",
+    "multer-storage-cloudinary": "^2.2.1"
+  },
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
+}
