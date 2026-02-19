@@ -22,7 +22,7 @@ app.get("/", (req, res) => {
 
 app.use('/api/entradas', entradaRoutes)
 app.use('/api/love-notes', loveNoteRoutes)
-app.use('/api/dates', dateRoutes)
+// app.use('/api/dates', dateRoutes)
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
