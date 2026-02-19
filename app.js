@@ -6,7 +6,7 @@ const corsOptions = require('./config/cors');
 
 const entradaRoutes = require('./routes/entradaRoutes')
 const loveNoteRoutes = require('./routes/loveNoteRoutes');
-const dateRoutes = require('./routes/dateRoutes');
+// const dateRoutes = require('./routes/dateRoutes');
 
 dotenv.config()
 connectDB();
