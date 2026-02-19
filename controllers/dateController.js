@@ -1,5 +1,5 @@
 const DateModel = require('../models/Date');
-const { cloudinary } = require('../config/cloudinary');
+// const { cloudinary } = require('../config/cloudinary');
 
 // Crear Date
 exports.createDate = async (req, res) => {
