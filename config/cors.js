@@ -1,6 +1,6 @@
 const allowedOrigins = [
   // "http://localhost:5173",          // Vite local
-  "https://nosso-date-rafa-juan.netlify.app/",         // dominio de producción
+  "https://nosso-date-rafa-juan.netlify.app",         // dominio de producción
 ];
 
 const corsOptions = {
