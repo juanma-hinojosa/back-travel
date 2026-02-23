@@ -7,6 +7,7 @@ const corsOptions = require('./config/cors');
 const entradaRoutes = require('./routes/entradaRoutes')
 const loveNoteRoutes = require('./routes/loveNoteRoutes');
 // const dateRoutes = require('./routes/dateRoutes');
+const favoriteRoutes = require("./routes/favoriteRoutes");
 
 dotenv.config()
 connectDB();
@@ -23,6 +24,7 @@ app.get("/", (req, res) => {
 app.use('/api/entradas', entradaRoutes)
 app.use('/api/love-notes', loveNoteRoutes)
 // app.use('/api/dates', dateRoutes)
+app.use('/api/favorites', favoriteRoutes);
 
 const PORT = process.env.PORT || 5000;
 app.listen(PORT, () => {
